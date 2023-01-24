@@ -1,0 +1,28 @@
+.containerProFlight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 216.49px;
+  height: 206px;
+  background: linear-gradient(
+    233.16deg,
+    #00b0ce -10.31%,
+    rgba(0, 176, 206, 0.3) 110.31%
+  );
+  border-radius: 30px;
+}
+
+.containerProFlightDisabled {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 216.49px;
+  height: 206px;
+  background: linear-gradient(
+    233.16deg,
+    #00afce2a -10.31%,
+    rgba(0, 176, 206, 0.4) 110.31%
+  );
+  border-radius: 30px;
+  border-radius: 30px;
+}

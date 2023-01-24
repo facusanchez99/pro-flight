@@ -1,0 +1,50 @@
+.containerMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.containerMainArrow button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.containerMainImages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5em;
+}
+.containerAddRemove{
+  display: flex;
+  margin-top: 3em;
+  gap: 3em;
+  align-items: center;
+  justify-content: center;
+}
+.containerAddRemove button{
+  border: none;
+  width: 100px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+.removeElement button{
+  background-color: rgb(228, 92, 92);
+}
+.removeElement button:hover{
+  background-color: rgb(228, 92, 92,0.8);
+}
+.addElement button{
+  background-color: rgba(79, 235, 79);
+}
+.addElement button:hover{
+  background-color: rgba(79, 235, 79, 0.8);
+}
